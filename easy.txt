@@ -1,0 +1,119 @@
+5
+-Q
+Question 1:
+What would this print statement look like in Python:
+int x = 3
+String s = "The answer is " +  x;
+A) x = 3;
+   s = "The answer is " + str(x);
+
+B) int x = 3
+   String s = "The answer is " + str(x)
+
+C) x = 3
+   s = "The answer is " + str(x)
+
+-A
+C
+~
+-Q
+Question 2:
+What does this Java if-Statement look like in Python:
+if (x > 3) {
+    x -= 2;
+    System.out.println(x);
+}
+y = x;
+A) if x > 3:
+       x -= 2
+       print(x)
+   y = x
+
+B) if x > 3{
+       x -= 2;
+       print(x);
+   }
+   y = x;
+
+C) if (x > 3):
+       int x -= 2
+       print(x)
+   y = x
+
+-A
+A
+~
+-Q
+Question 3:
+What does this Java while-loop look like in python:
+int x = 11;
+while (x != 0) {
+    System.out.println(x);
+    x /= 2;
+}
+A) x = 11
+   while x != 0:
+       print(x)
+       x /= 2
+
+B) int x = 11;
+      while x != 0{
+          print(x);
+          x /= 2;
+      }
+
+C) x = 11
+      while (x != 0):
+          print(x)
+          x /= 2
+
+-A
+A
+~
+-Q
+Question 4:
+What would this Java for-loop look like in python:
+for (String w: words) {
+    w = w.toUppercase();
+    System.out.println(w);
+}
+A) for w in words:
+       w = w.upper();
+       print(w);
+
+B) for w in words:
+       w = w.upper()
+       print(w)
+
+C) for (String w: words)
+       w = w.upper()
+       print(w)
+
+-A
+B
+~
+-Q
+Question 5:
+What would the following code be written as in python?
+String s= "Compute";
+char c = s.charAt(2); // 'm'
+String sub1 = s.substring(1, 4);
+String sub2 = s.substring(3);
+A) String s = "Compute"
+   char c = s[2]   # "m"
+   sub1 = s[1:4] # "omp"
+   sub2 = s[3:] # "pute"
+
+B) s = "Compute";
+   c = s[2]   # "m";
+   sub1 = s[1:4] # "omp";
+   sub2 = s[3:] # "pute";
+
+C) s = "Compute"
+   c = s[2]   # "m"
+   sub1 = s[1:4] # "omp"
+   sub2 = s[3:] # "pute"
+
+-A
+C
+~

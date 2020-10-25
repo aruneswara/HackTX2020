@@ -1,0 +1,58 @@
+5
+-Q
+Question 1:
+Translate the following to python:
+String word = "eat";
+Python:
+______ = "eat"
+-A
+word
+~
+-Q
+Question 2:
+Translate the following to python:
+int x = 5;
+if(x > 5) {
+    System.out.print(" ");
+}
+Python:
+x = 5
+______
+    print(" ")
+-A
+if x > 5:
+~
+-Q
+Question 3:
+Translate the following to python:
+String s = "hello"
+for(int i = 0; i < s.length(); i++) {
+    System.out.println(s.charAt(i));
+}
+Python:
+s = "hello"
+______
+    print(i)
+-A
+for i in s:
+~
+-Q
+Question 4:
+Translate the following to python:
+String s = "hello";
+System.out.print(s.length()):
+Python:
+s = "hello"
+______
+-A
+print(s.len())
+~
+-Q
+Question 5:
+Translate the following to python:
+int i = 5 % 2;
+python:
+------
+-A
+i = 5 mod 2
+~
